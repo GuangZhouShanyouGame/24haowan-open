@@ -1,13 +1,13 @@
 {
     "root": "./",
-    "title": "配置表说明",
+    "title": "开发指南",
     "links": {
         "sidebar": {
             "文档由24好玩提供": "http://www.24haowan.com"
         }
     },
-    "author": "Vincent <vincent@24haowan.com>",
-    "description": "配置表说明",
+    "author": "Wu Yifeng <yifeng.wu@24haowan.com>",
+    "description": "开发指南",
     "language": "zh-hans",
     "plugins": [
         "multipart",

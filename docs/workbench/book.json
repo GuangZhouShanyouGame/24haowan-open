@@ -13,6 +13,7 @@
         "multipart",
         "include-codeblock",
         "back-to-top-button",
-        "-sharing"
+        "-sharing",
+        "24haowan@git+https://github.com/GuangZhouShanyouGame/gitbook-plugin-24haowan.git"
     ]
 }
