@@ -29,4 +29,57 @@ elements   | 元素集合      | Array  | `[]` | 否
 icon     | 模块图标     | String | `''` | 否
 id      | 模块的ID     | String | `''`  | 否
 name     | 模块名称       | String | `''` | 是
-optional | 显示启用/不启用选项 | Boolean | `false`| 否
+optional | 是否可选开启/关闭 | Boolean | `false`| 否
+
+## 可选开启/关闭的作用
+
+当一个模块是可选的时候，值的变化不会立即保存，需要点击模块下的确认才会把整个模块下的值一起保存。
+
+如有以下模块配置：
+
+```json
+{
+    "modules": [
+        {
+            "id": "mymodule",
+            "name": "我的模块",
+            "optional": true,
+            "elements": [
+                {
+                    "id": "title",
+                    "name": "标题",
+                    "type": "input"
+                },
+                {
+                    "id": "subTitle",
+                    "name": "副标题",
+                    "type": "input"
+                }
+            ]
+        }
+    ]
+}
+```
+
+对应的dist结构应是：
+
+```json
+{
+    "dist": {
+        "mymodule": {
+            "enable": false,
+            "title": {
+                "value": "这是标题"
+            },
+            "subTitle": {
+                "value": "这是副标题"
+            }
+        }
+    }
+}
+```
+
+注意：其中的enable代表的是该模块有没有被启用，开发者可根据enable的值进行相应的处理。
+
+
+

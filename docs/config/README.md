@@ -7,11 +7,10 @@
 ## 开始
 
 配置表文件为json格式。<br>
-配置表主要分为三部分：static, dist, workbench，形式如下：
+配置表主要分为两部分：dist, workbench，形式如下：
 
 ```json
 {
-    "static": {...},
     "dist": {...},
     "workbench": {...}
 }
@@ -19,12 +18,5 @@
 
 每部分主要内容如下，详情请参考后续文档：
 
-- static：静态配置
 - dist：运行配置
 - workbench：工作台配置
-
-## 完整示例：
-
-[下载完整示例](./example.json)
-
-[import](./example.json)

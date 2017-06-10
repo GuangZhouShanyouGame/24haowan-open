@@ -3,7 +3,6 @@
 ## Part 1 - 总览
 
 - [配置表](README.md)
-- [静态配置](book/config/static.md)
 - [运行配置](book/config/dist.md)
 - [工作台配置](book/config/workbench.md)
 
