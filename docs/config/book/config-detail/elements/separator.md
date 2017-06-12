@@ -14,3 +14,11 @@
     "description": "图标列表说明如下"
 }
 ```
+
+## 默认属性
+
+属性 | 说明 | 类型 | 默认值
+:-- | :-- | :-- | :--
+description | 描述 | String | ''
+name | 名称 | String | ''
+type | 类型 | String | 'separator'

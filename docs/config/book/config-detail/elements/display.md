@@ -15,3 +15,15 @@
     "enableCopy": true
 }
 ```
+
+## 默认属性
+
+属性 | 说明 | 类型 | 默认值
+:-- | :-- | :-- | :--
+enableCopy | 是否允许被复制 | Boolean | false
+description | 描述 | String | ''
+dependencies | 依赖 | Array | []
+dist | 输出值 | Object | {value: null}
+name | 名称 | String | ''
+type | 类型 | String | 'display'
+

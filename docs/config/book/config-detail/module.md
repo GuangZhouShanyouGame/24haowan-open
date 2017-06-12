@@ -80,6 +80,3 @@ optional | 是否可选开启/关闭 | Boolean | `false`| 否
 ```
 
 注意：其中的enable代表的是该模块有没有被启用，开发者可根据enable的值进行相应的处理。
-
-
-

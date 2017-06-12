@@ -1,18 +1,22 @@
 # Summary
 
-## Part 1 - 总览
+## Part 1 - 快速开始
+
+- [来写一份配置表](book/quick-start/README.md)
+
+## Part 2 - 总览
 
 - [配置表](README.md)
 - [运行配置](book/config/dist.md)
 - [工作台配置](book/config/workbench.md)
 
-## Part 2 - 工作台配置
+## Part 3 - 工作台配置
 
 - [页面配置](book/config-detail/page.md)
 - [模块配置](book/config-detail/module.md)
 - [元素配置](book/config-detail/element.md)
 
-## Part 3 - 元素列表
+## Part 4 - 元素列表
 
 - [展示标签](book/config-detail/elements/display.md)
 - [分隔符](book/config-detail/elements/separator.md)
@@ -31,9 +35,12 @@
 - [颜色](book/config-detail/elements/color.md)
 - [单选按钮](book/config-detail/elements/radio.md)
 - [下拉框](book/config-detail/elements/select.md)
+- [开关](book/config-detail/elements/switch.md)
 - [列表](book/config-detail/elements/list.md)
+- [奖品](book/config-detail/elements/gift.md)
+- [跳转链接](book/config-detail/elements/link.md)
 
-## Part 4 - 进阶说明
+## Part 5 - 进阶说明
 
 - [依赖属性](book/advanced/dependency.md)
 - [属性传递](book/advanced/pass.md)

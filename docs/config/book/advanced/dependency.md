@@ -29,6 +29,7 @@
 action | 当依赖条件满足时执行的操作名称 | String
 path | 依赖的值的路径，以`.`连接 | String
 expect | 依赖的期望值，当从`path`获取到的值与此值完全相等时，即满足依赖条件。 | String
+notNull | 非空，当从`path`获取到的值不为空时，即满足依赖条件。 | Boolean
 
 ## 可选的依赖操作
 
