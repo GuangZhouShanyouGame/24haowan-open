@@ -40,6 +40,12 @@
 - [奖品](book/config-detail/elements/gift.md)
 - [跳转链接](book/config-detail/elements/link.md)
 
+## Part 5 - 预设模块
+
+- [什么是预设模块](book/preset-modules/README.md)
+- [服务模块](book/preset-modules/service.md)
+- [营销模块](book/preset-modules/market.md)
+
 ## Part 5 - 进阶说明
 
 - [依赖属性](book/advanced/dependency.md)
