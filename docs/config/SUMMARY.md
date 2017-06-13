@@ -46,7 +46,7 @@
 - [服务模块](book/preset-modules/service.md)
 - [营销模块](book/preset-modules/market.md)
 
-## Part 5 - 进阶说明
+## Part 6 - 进阶说明
 
 - [依赖属性](book/advanced/dependency.md)
 - [属性传递](book/advanced/pass.md)
