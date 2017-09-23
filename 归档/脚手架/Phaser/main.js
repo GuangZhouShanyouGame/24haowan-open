@@ -145,10 +145,10 @@ Game.prototype = {
 				 * 按需要参考下面的示例进行资源的加载
 				------------------------------ */
 				// 游戏资源集合，详情参考配置表
-				// var config = self.config['game']; 
+				// var config = self.config['game'];
 
 				// 加载游戏背景
-				// if (config['bg'].indexOf('#') !== 0) game.load.image('bg', config['bg']); 
+				// if (config['bg'].indexOf('#') !== 0) game.load.image('bg', config['bg']);
 
 				// 加载普通图片资源
 				// game.load.image('man', config['man']);

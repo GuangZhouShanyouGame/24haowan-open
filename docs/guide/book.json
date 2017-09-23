@@ -1,0 +1,19 @@
+{
+    "root": "./",
+    "title": "开发指南",
+    "links": {
+        "sidebar": {
+            "文档由24好玩提供": "http://www.24haowan.com"
+        }
+    },
+    "author": "Wu Yifeng <yifeng.wu@24haowan.com>",
+    "description": "开发指南",
+    "language": "zh-hans",
+    "plugins": [
+        "multipart",
+        "include-codeblock",
+        "back-to-top-button",
+        "-sharing",
+        "24haowan@git+https://github.com/GuangZhouShanyouGame/gitbook-plugin-24haowan.git"
+    ]
+}

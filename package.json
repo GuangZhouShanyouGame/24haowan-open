@@ -1,0 +1,27 @@
+{
+  "name": "24haowan-open",
+  "version": "1.0.0",
+  "description": "让H5开发者不再担心没有后端的支持，平台将提供完备的接口以及管理、测试、部署一站式服务。除可以快速部署H5项目外，还提供精准清晰的数据统计，还能轻松地将项目改写成模板，供更多的人使用。",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gitbook-config": "gitbook serve docs/config/",
+    "gitbook-workbench": "gitbook serve docs/workbench/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuangZhouShanyouGame/24haowan-open.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GuangZhouShanyouGame/24haowan-open/issues"
+  },
+  "homepage": "https://github.com/GuangZhouShanyouGame/24haowan-open#readme",
+  "devDependencies": {
+    "gitbook-cli": "^2.3.0"
+  }
+}
